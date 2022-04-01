@@ -844,6 +844,7 @@ GameObject:
   - component: {fileID: 6748930146102855774}
   - component: {fileID: 6748930146102855773}
   - component: {fileID: 6748930146102855772}
+  - component: {fileID: 225026959303027087}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -924,6 +925,20 @@ MonoBehaviour:
   player: {fileID: 0}
   navMeshAgent: {fileID: 6748930146102855773}
   moveSpeed: 2
+--- !u!136 &225026959303027087
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6748930146102855760}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2.2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.7, z: 0}
 --- !u!1 &6748930146177041769
 GameObject:
   m_ObjectHideFlags: 0
