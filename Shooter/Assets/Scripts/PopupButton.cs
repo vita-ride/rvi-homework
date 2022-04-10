@@ -13,6 +13,7 @@ public class PopupButton : MonoBehaviour
         }
         else {
             popup.gameObject.SetActive(true);
+
         }
         
     }
